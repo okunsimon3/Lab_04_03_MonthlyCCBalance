@@ -10,8 +10,8 @@ public class Main
         oneMonth = creditBalance * interestRate;
         twoMonth = (creditBalance + oneMonth) * interestRate;
 
-        System.out.println("Your interest for the first month is: " + oneMonth);
-        System.out.println("Your interest for the second month is: " + twoMonth);
+        System.out.println("The interest for the first month is: " + oneMonth);
+        System.out.println("The interest for the second month is: " + twoMonth);
 
     }
 }
